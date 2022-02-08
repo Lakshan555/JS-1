@@ -1,21 +1,49 @@
-// IF ELSE
-
-var a = 10;
-var b = 20;
 
 
-//condition
-if (a > b ){
-    console.log("A is grater than B");
+var a = 20;
+var b = "20";
+var c = 5
+var d = 15;
+
+
+//equal to
+if(a === b){
+    //equal value equal type
+    if(a === b ){
+        console.log("both value and type is equal");
+    }
+    //not equal value or not equal type
+    else if(a !== b){
+        console.log("only value or type is a equal to b");
+    }
 }
-else if(a < b){
-    console.log("A is less than B");
-}
+
+//Greater than or eqal
+// else if(a => 10){
+//     //geter than
+//     if(a > 10){
+//         console.log('a is gater than 10');
+//     }
+// }
+
+
+// else if (a != c){
+//    if(a < c) {
+//     console.log('a is less than c');
+//    }
+//    else{
+//     console.log('a is grater than c');
+//    }
+// }
+
 else{
-    console.log("B is equal to A");
-}
+    // if(c <= 5){
+    //     console.log('C is eqal or  less than 5');
+    // }
+    // else{
+    //     console.log('C is eqal or  less than 5');
+    // }
 
-if (b == 20){
-    console.log("b is 20");
+    //ternary oparater
+    c <= 5 ? console.log('C is eqal or  less than 5') :  console.log('C is eqal or  less than 5');
 }
-
