@@ -1,25 +1,21 @@
-/*
-Kasun and Chamal are trying to compare their BMI (Body Mass Index), which is calculated using the formula: 
-BMI = mass / height ^ 2
-(Mass is kg and Height in meter)
-1. Store Kasun's and Chamal's mass and height in variables
-2. Calculate both their BMIs
-3. Create a boolean variable containing information about whether Kasun has a higher BMI than Chamal.
-4. Print a string to in alert box containing the variable from step 3.
-*/
+// IF ELSE
 
-var mas,higth,bmik,bmic,isKasun;
+var a = 10;
+var b = 20;
 
-//Claculate Kasun BMI
-mas =  prompt("Enter Kasun mas");
-higth = prompt("Enter Kasun Higth");
-bmik = mas / higth ** 2;
 
-mas =  prompt("Enter Chamal mas");
-higth = prompt("Enter Chamal Higth");
-bmic = mas / higth ** 2;
+//condition
+if (a > b ){
+    console.log("A is grater than B");
+}
+else if(a < b){
+    console.log("A is less than B");
+}
+else{
+    console.log("B is equal to A");
+}
 
-isKasun = (bmik > bmic);
+if (b == 20){
+    console.log("b is 20");
+}
 
-alert ("Kasun BMI " + bmik + " Chamal BMI " + bmic + " Kasun higher than chamal is "  + isKasun);
- 
