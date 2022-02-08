@@ -1,27 +1,44 @@
 //create variables
-var fistName = 'ishanka'; 
-let lastName = 'Pramidu'; 
-var age = 26;
-var isOk = true;
-var job,height;
+var myAge , yourAge, year , result;
 
-//print variable
-console.log('My Name is' + fistName + " " + lastName);
+myAge = 24
+yourAge = 25
+year = 2022
 
-//Get variable type
-console.log(typeof(fistName));
-console.log(typeof(age));
-console.log(typeof(isOk));
+//substarction
+result = year -  myAge
+console.log('i was born in ' + result);
 
-//Difine
-job = 'Doctor';
-lastName = 'laskhan';
+//additions
+result = year + 10 ;
+console.log('After 10 years it will be  ' + result);
 
-console.log('i am ' + lastName + ' i am a ' + job);
+//multipication
+result = myAge * yourAge ;
+console.log('multipication our age  ' + result);
 
-//get user input 
-height = prompt("What is your higth?");
-alert('My hight is ' + height + ' feet');
+//divison
+console.log('divison of our age  ' + (myAge/yourAge));
+
+//exponetitaion
+console.log('Exponet of my age  ' + (myAge**2));
+
+//increamt
+console.log(myAge++);
+console.log('Post increament of my age ' + myAge);
+
+console.log(++myAge);
+console.log('Pre increament of my age ' + myAge);
 
 
+//decrement
+console.log(myAge--);
+console.log('Post decrement of my age ' + myAge);
 
+console.log(--myAge);
+console.log('Pre decrement of my age ' + myAge);
+
+
+//oprater Presidence 
+var cal = (20+30)/10+4.5-2/4**2;
+console.log(cal);
