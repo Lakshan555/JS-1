@@ -1,44 +1,38 @@
 //create variables
-var myAge , yourAge, year , result;
+//Equal
+var myName = 'kasun'
+console.log(myName);
 
-myAge = 24
-yourAge = 25
-year = 2022
+//additon with equal
+var age = 24
+age += 10;
+console.log(age);
 
-//substarction
-result = year -  myAge
-console.log('i was born in ' + result);
+//substaction with equal
+age -= 10;
+console.log(age);
 
-//additions
-result = year + 10 ;
-console.log('After 10 years it will be  ' + result);
+//multipication with equal
+age *= 10;
+console.log(age);
 
-//multipication
-result = myAge * yourAge ;
-console.log('multipication our age  ' + result);
+//Devition with equal
+age /= 10;
+console.log(age);
 
-//divison
-console.log('divison of our age  ' + (myAge/yourAge));
-
-//exponetitaion
-console.log('Exponet of my age  ' + (myAge**2));
-
-//increamt
-console.log(myAge++);
-console.log('Post increament of my age ' + myAge);
-
-console.log(++myAge);
-console.log('Pre increament of my age ' + myAge);
+//modules with equal
+age %= 10;
+console.log(age);
 
 
-//decrement
-console.log(myAge--);
-console.log('Post decrement of my age ' + myAge);
+//Expotentaion with equal
+age **= 2;
+console.log(age);
 
-console.log(--myAge);
-console.log('Pre decrement of my age ' + myAge);
+var number,expo;
+number = prompt('Enter Number');
+expo = prompt("expo");
+number **= expo; 
+alert(expo + "^ is " + number);
 
-
-//oprater Presidence 
-var cal = (20+30)/10+4.5-2/4**2;
-console.log(cal);
+console.log(number);
