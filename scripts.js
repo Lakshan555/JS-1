@@ -21,18 +21,18 @@ switch(jobRole.toLocaleLowerCase()){
 //-------------------------------
 var age = 20;
 
-switch(ture){
+switch(true){
     case age < 20 :
-        console.log(empName + 'is under Age');
+        console.log(empName + ' is under Age');
         break;
     case age >= 20 && age < 30 : 
-        console.log(empName + 'is in pefect Age');
+        console.log(empName + ' is in pefect Age');
         break;
     case age >= 30 && age < 50:
-        console.log(empName + 'is in Mature Age');
+        console.log(empName + ' is in Mature Age');
         break;
     default :
-        console.log(empName + 'is Too old');
+        console.log(empName + ' is Too old');
     
 
 } 
